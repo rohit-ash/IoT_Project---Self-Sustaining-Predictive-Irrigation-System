@@ -14,7 +14,7 @@
     </section>
     <section id = "Plot1">
       <div class="Plots">
-       <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1368695/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature+Reading&type=line&xaxis=Time&yaxis=Temperature">
+       <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="">
        </iframe>
        <h2 class = "PlotHeading">Temperature Plot</h2>
       </div>
@@ -22,14 +22,14 @@
 
   <section id = "Plot2">
     <div class="Plots">
-     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1368695/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Soil+Moisture+Content&type=line&xaxis=Time&yaxis=Moisture+content"></iframe>
+     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src=""></iframe>
       <h2 class = "PlotHeading">Soil Moisture Plot</h2>
     </div>
   </section>
 
   <section id = "Plot3">
     <div class="Plots">
-     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1368695/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity+measurement&type=line&xaxis=Time&yaxis=Relative+Humidity+"></iframe>
+     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src=""></iframe>
     <h2 class = "PlotHeading">Humidity Plot</h2>
     </div>
   </section>
@@ -44,16 +44,16 @@
    window.weatherWidgetConfig.push({
        selector:".weatherWidget",
        apiKey:"JXTAMQN64JVWH3UQA295PRJLC", //Sign up for your personal key
-       location:"Chennai, India", //Enter an address
+       location:"", //Enter an address
        unitGroup:"metric", //"us" or "metric"
        forecastDays:7, //how many days forecast to show
-       title:"Chennai,India", //optional title to show in the
+       title:"", //optional title to show in the
           showTitle:true,
          showConditions:true
       });
       (function() {
             var d = document, s = d.createElement('script');
-            s.src ='https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+            s.src ='';
             s.setAttribute('data-timestamp', +new Date());
            (d.head || d.body).appendChild(s);
            })();
@@ -62,7 +62,7 @@
            var request = new XMLHttpRequest()
            var element = 15
 // Open a new connection, using the GET request on the URL endpoint
-           request.open('GET', 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/weatherdata/forecast?aggregateHours=24&combinationMethod=aggregate&contentType=json&unitGroup=metric&locationMode=single&key=JXTAMQN64JVWH3UQA295PRJLC&dataElements=default&locations=Chennai', true)
+           request.open('GET', 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/weatherdata/forecast?aggregateHours=24&combinationMethod=aggregate&contentType=json&unitGroup=metric&locationMode=single&key=JXTAMQN64JVWH3UQA295PRJLC&dataElements=default&locations=', true)
            request.onload = function () {
              let value = JSON.parse(this.response).location.values[1]
              if(value.precip <= 0.25){
