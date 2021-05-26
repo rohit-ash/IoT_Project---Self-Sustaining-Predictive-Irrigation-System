@@ -1,0 +1,52 @@
+
+#Top{
+background-color: #A52A2A;
+text-align: center;
+padding:3% 15% 3% ;
+position: relative;
+}
+#Plot1{
+  background-color: #FFF8DC;
+}
+#Plot2{
+  background-color: white;
+}
+#Plot3{
+  background-color: #FFF8DC;
+}
+#WeatherForecast{
+  text-align: center;
+}
+.Heading{
+  font-family: sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  padding: 3% 15% 3% 15%;
+}
+.Plots{
+  text-align: center;
+  padding:3% 15% ;
+  position: relative;
+}
+.PlotHeading{
+  color: #8B0000;
+  font-size:2rem;
+  font-family: sans-serif;
+}
+.status{
+  text-align: center;
+  font: serif;
+  font-size:4rem;
+  padding:1%;
+  color: #8B0000;
+}
+.info{
+  color:#A0522D;
+  font-size:3rem;
+}
+.Forecast{
+  background-color:White;
+}
+.Suggestion{
+  background-color: #FFF8DC;
+}
