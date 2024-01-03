@@ -29,7 +29,7 @@ Circuit Diagram :
 
 Implemented Prototype : 
 
-![Project_GROW_pic1](https://github.com/rohit-ash/IoT_Project---Self-Sustaining-Predictive-Irrigation-System/assets/51155103/7e0eee0c-9c17-4095-95b2-282e6c3e0910) | ![Project_GROW_pic2](https://github.com/rohit-ash/IoT_Project---Self-Sustaining-Predictive-Irrigation-System/assets/51155103/9d918eab-da6c-4f27-a027-ddf90b4aa1e0)
+![Project_GROW_pic1](https://github.com/rohit-ash/IoT_Project---Self-Sustaining-Predictive-Irrigation-System/assets/51155103/7e0eee0c-9c17-4095-95b2-282e6c3e0910) ![Project_GROW_pic2](https://github.com/rohit-ash/IoT_Project---Self-Sustaining-Predictive-Irrigation-System/assets/51155103/9d918eab-da6c-4f27-a027-ddf90b4aa1e0)
 
 Sensor Readings : 
 
